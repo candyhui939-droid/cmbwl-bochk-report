@@ -1,0 +1,37 @@
+version: 1
+fallback:
+  needs_review_on_miss: true
+
+metrics:
+  - standard_name: nii_total
+    aliases:
+      - 净利息收入
+      - 淨利息收入
+      - net interest income
+      - NII
+      - nii
+      - total_nii
+    expected_unit: 亿港元
+    extraction_priority: table_first
+
+  - standard_name: stage3_allowance
+    aliases:
+      - 三阶段减值准备
+      - 第三阶段减值准备
+      - stage 3 allowance
+      - stage3 allowance
+      - S3 allowance
+      - s3_allowance
+    expected_unit: 亿港元
+    extraction_priority: table_first
+
+  - standard_name: casa_ratio_pct
+    aliases:
+      - CASA占比
+      - casa占比
+      - CASA ratio
+      - casa ratio
+      - current and savings account ratio
+      - casa_ratio
+    expected_unit: "%"
+    extraction_priority: text_first
