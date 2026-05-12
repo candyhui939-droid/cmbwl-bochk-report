@@ -1,0 +1,4 @@
+field_name,value,unit,original_field_name,needs_review,expected_unit,extraction_priority
+nii_total,280.1,亿港元,NII,False,亿港元,table_first
+casa_ratio_pct,42.6,%,CASA ratio,False,%,text_first
+未知字段,N/A,,未知字段,True,,
